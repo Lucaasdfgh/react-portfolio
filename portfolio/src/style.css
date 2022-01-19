@@ -1,0 +1,213 @@
+
+
+main {
+  background-size: cover;
+  height: 800px;
+}
+*, html, body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#nav-bar-content {
+    justify-content: space-between;
+}
+
+.icons{
+  margin-left: 0px;
+  
+}
+
+
+.nav-bar a {
+    text-decoration: none;
+    color: grey;
+}
+
+.nav-bar a:hover{
+    color: #606470;
+    opacity: .1;
+}
+
+.home-text-1:hover, p:hover {
+    color: #606470;
+    
+}
+
+.App {
+  
+    padding: 0%;
+    margin: 0%;
+  }
+  * {
+    text-decoration: none;
+  }
+  
+  .home {
+    
+    flex-direction: row;
+  }
+  
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: grey;
+    
+    ;
+  }
+  
+  h3 {
+     margin-top: 10px; 
+  }
+
+  h6 {
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    font-size: 28px;
+    
+  }
+  
+  .profile-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    
+    opacity: .80;
+  }
+  .startpage-1 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+
+  h5 .home-text-1 {
+    margin-left:0;
+  }
+
+  .right-home-1 {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  div a {
+      color: grey
+  }
+
+  @media (max-width: 480px) {
+
+    right-home-1 {
+      margin-left: 20px !important;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-content: center;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        margin-left:10px;
+        margin-right: 20px;
+    }
+
+    * {
+        margin: 0%;
+    }
+  .startpage-1 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    align-content: center;
+  }
+  .profile-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    display: flex;
+    align-content: center;
+  }
+  .info-home-1 {
+    margin-left: 0px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .rap-trainer-img {
+    width: 100%;
+    }
+  }
+  h5 {
+    font-size: 56px;
+    color: grey;
+  }
+  
+  .home-text-1 {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 0%;
+    font-size: 56px;
+    color: #606470;
+  }
+  
+  .info-home {
+    font-size: 24px;
+    color: grey;
+    margin-left: 0px;
+  }
+  info-home-p {
+    font-size: 24px;
+    color: grey;
+  }
+  
+  .projects-container {
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .rap-trainer-div {
+    margin: 0px;
+    text-align: center;
+  }
+  .webpage {
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .demo-link {
+    color: blue;
+  }
+  
+  .rap-trainer-img {
+    width: 100%;
+  }
+  
+  .project-2-img {
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) { 
+    .navbar {
+      justify-content: space-around;
+    }
+   }
